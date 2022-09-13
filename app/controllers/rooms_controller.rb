@@ -3,6 +3,7 @@ class RoomsController < ApplicationController
 
   def index
     @room = Room.new
+    @single_room = Room.find(params[:id])
     @rooms = Room.public_rooms
     @users = User.all_except(current_user)
   end
