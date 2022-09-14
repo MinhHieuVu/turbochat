@@ -14,7 +14,7 @@
  *= require_self
  */
 body {
-    overflow:  hidden;
+    overflow: hidden;
 }
 .msg-form {
     width: 100px;
@@ -35,18 +35,18 @@ body {
     height: 100vh;
     margin-right: 0px !important;
 }
-#side-pain {
+#side-panel {
     height: 100vh;
+    margin-right: 0px !important;
     overflow-x: hidden;
     overflow-y: scroll;
     margin-bottom: 55px;
-    margin-right: 0px !important;
 }
 #chatroom_container {
     height: 100vh;
+    margin-right: 0px !important;
     overflow-x: hidden;
     overflow-y: scroll;
-    margin-right: 0px !important;
 }
 .msg-content {
     width: 80%;
@@ -57,7 +57,7 @@ body {
     word-wrap: break-word;
     width: fit-content;
     max-width: 40%;
-    padding: 5px;
+    /*padding: 5px;*/
     margin-bottom: 10px;
     border-radius: 5px;
     background-color: #555555;
