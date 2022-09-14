@@ -13,3 +13,53 @@
  *= require_tree .
  *= require_self
  */
+body {
+    overflow:  hidden;
+}
+.msg-form {
+    width: 100px;
+    height: 56px;
+    padding: 10px;
+}
+#single_room {
+    height: calc(100vh - 150px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#messages {
+    height: calc(100vh - 150px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#room_container {
+    height: 100vh;
+    margin-right: 0px !important;
+}
+#side-pain {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-bottom: 55px;
+    margin-right: 0px !important;
+}
+#chatroom_container {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-right: 0px !important;
+}
+.msg-content {
+    width: 80%;
+    margin-right: 5px;
+}
+
+.message-box {
+    word-wrap: break-word;
+    width: fit-content;
+    max-width: 40%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #555555;
+    padding: 10px;
+}
