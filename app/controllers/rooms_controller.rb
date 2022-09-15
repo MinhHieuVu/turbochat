@@ -10,6 +10,7 @@ class RoomsController < ApplicationController
 
   def show
     @single_room = Room.find(params[:id])
+
     @room = Room.new
     @rooms = Room.public_rooms
 
