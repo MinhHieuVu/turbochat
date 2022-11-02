@@ -7,11 +7,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager">
-    <option name="groupingKeys">
-      <option value="directory" />
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -161,6 +156,7 @@
       <workItem from="1666672852501" duration="163000" />
       <workItem from="1666714842448" duration="123000" />
       <workItem from="1666715458786" duration="202000" />
+      <workItem from="1666715684039" duration="264000" />
     </task>
     <task id="LOCAL-00001" summary="remove .idea">
       <created>1664725457026</created>
